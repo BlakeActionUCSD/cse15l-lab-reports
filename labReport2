@@ -3,7 +3,7 @@ It uses two for loops:
   One for displaying strings without using /add-message?s=.
   One for updating strings using /add-message?s=.
   
-![image](https://github.com/BlakeActionUCSD/cse15l-lab-reports/blob/main/addCode.png)
+https://github.com/BlakeActionUCSD/cse15l-lab-reports/blob/main/addCode.png
 
 I tried entering a few different messages, including the ones from the lab guide. The only method that I ever used was handleRequest, with the URL
 as the input. The first screenshot used the second for loop (for updating the website and returning str2).
