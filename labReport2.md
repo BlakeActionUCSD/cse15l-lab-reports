@@ -3,25 +3,25 @@ It uses two for loops:
   One for displaying strings without using /add-message?s=.
   One for updating strings using /add-message?s=.
   
-![Image][addCode.png]
+![Image](addCode.png)
 
 I tried entering a few different messages, including the ones from the lab guide. The only method that I ever used was handleRequest, with the URL
 as the input. The first screenshot used the second for loop (for updating the website and returning str2).
 
-![image][addTest1.png]
+![image](addTest1.png)
 
 The second screenshot is an example of what the terminal displays when I run the /add-message?s= command:
 
-![image][addTest2.png]
+![image](addTest2.png)
 
 I created a couple of tests for a couple of the reverse array methods, using the ArrayTests.java file:
 
-![image][bugCodeTest.png]
+![image](bugCodeTest.png)
 
-![image][bugCodeError.png]
+![image](bugCodeError.png)
 
-![image][bugCodeError1.png]
-![image][bugCodeError2.png]
+![image](bugCodeError1.png)
+![image](bugCodeError2.png)
 
 @Test 
 	public void testReverseInPlace() {
@@ -59,7 +59,7 @@ as shown in the following code:
   
   The first error appeared to be caused by the array overwriting itself. I just edited the code to a proper swap method. New:
   
-  ![image][bugCodeFix1]
+  ![image](bugCodeFix1)
   
   static void reverseInPlace(int[] arr) {
     int[] newArr = new int[arr.length];
@@ -74,7 +74,7 @@ as shown in the following code:
   
   The second error was caused by the old array copying the new array instead of the other way around. I swapped them around. New:
   
-  ![image][bugCodeFix2]
+  ![image](bugCodeFix2)
   
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
