@@ -63,7 +63,7 @@ as shown in the following code:
   
   The first error appeared to be caused by the array overwriting itself. I just edited the code to a proper swap method. New:
   
-  ![image](bugCodeFix1)
+  ![image](bugCodeFix1.png)
   
   ```
   static void reverseInPlace(int[] arr) {
@@ -80,7 +80,7 @@ as shown in the following code:
   
   The second error was caused by the old array copying the new array instead of the other way around. I swapped them around. New:
   
-  ![image](bugCodeFix2)
+  ![image](bugCodeFix2.png)
   
   ```
   static int[] reversed(int[] arr) {
