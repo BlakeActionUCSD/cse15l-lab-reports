@@ -10,7 +10,15 @@ as the input. The first screenshot used the second for loop (for updating the we
 
 ![image](addTest1.png)
 
-The second screenshot is an example of what the terminal displays when I run the /add-message?s= command:
+In both screenshots, the same arguments and values are used. The linked list and the counting integer are both updated. In the first screenshot, the iteration is
+updated to 3, as this is where the "Testing! 123" text is stored in the linked list.
+
+![image](addTest3.png)
+
+For the second screenshot, the counting integer is at position 0, where the "Hello World!" text is stored in our linked list. These are changed through
+a for loop that updates the values with the text copied from the URL.
+
+The third screenshot is an example of what the terminal displays when I run the /add-message?s= command:
 
 ![image](addTest2.png)
 
