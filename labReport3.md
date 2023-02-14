@@ -4,7 +4,7 @@ I chose to experiment with four different variations of the "find" command:
 and wc gives us our output. Using -l and -c allows us to see the number of new lines and bytes.
 
 &emsp;  -type f (or -type d for directories) is a necessary tool that allows us to specify what we are searching for, especially when there are directories 
-&emsp;and files with the same name.
+and files with the same name.
 
 &emsp;  -wc is a quick and simple to read information on files and directories.
 
