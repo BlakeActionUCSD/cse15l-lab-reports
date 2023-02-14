@@ -6,7 +6,7 @@ and wc gives us our output. Using -l and -c allows us to see the number of new l
  + -type f (or -type d for directories) is a necessary tool that allows us to specify what we are searching for, especially when there are directories 
 and files with the same name.
 
-&emsp;  -wc is a quick and simple to read information on files and directories.
+ + -wc is a quick and simple to read information on files and directories.
 
 Input 1:
 ```
@@ -66,7 +66,7 @@ Output 2 (all files under 1000 bytes):
 3. The -printf format command can give us information about the files, similar to how wc does. The difference is that -printf is much more powerful in many ways.
 This command allows us to print information such as the name of a directory's owner, modification time, full path, file names without their paths, and much more.
 
-&emsp;  For basic information on files during searches, writing up a -printf command line is invaluable, as its formatting is fully customizable.
+ + For basic information on files during searches, writing up a -printf command line is invaluable, as its formatting is fully customizable.
 
 Input 1:
 ```
@@ -130,7 +130,7 @@ Owner: cs15lwi23ajt
 4. Our last output was very large! We can use the -prune command to exclude certain directories. This can be coupled with -name or -path to exclude
 directory names or paths, respectively. Using the -o option, we can insert prune into our previous command line and exclude the non-fiction directory.
 
-&emsp;  This is very useful for excluding large or otherwise troublesome directories from searches, and it allows for much cleaner search results.
+ + This is very useful for excluding large or otherwise troublesome directories from searches, and it allows for much cleaner search results.
 
 Input 1:
 ```
@@ -159,7 +159,7 @@ $ find ./written_2 -name "travel_guides" -prune -o -type f
 
 Output 2 (a much simpler command, showing how to prune the contents a directory "travel_guides" from a find search):
 
-Note: the directory itself is still visible, but find does not search its contents.
+ + Note: the directory itself is still visible, but find does not search its contents.
 ```
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt
 ./written_2/non-fiction/OUP/Abernathy/ch14.txt
