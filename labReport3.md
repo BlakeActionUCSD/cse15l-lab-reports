@@ -153,7 +153,8 @@ Input 2:
 $ find ./written_2 -name "travel_guides" -prune -o -type f
 ```
 
-Output 2 (a much simpler command, showing how to prune a directory "travel_guides" from a find search):
+Output 2 (a much simpler command, showing how to prune the contents a directory "travel_guides" from a find search):
+Note: the directory itself is still visible, but find does not search its contents.
 ```
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt
 ./written_2/non-fiction/OUP/Abernathy/ch14.txt
