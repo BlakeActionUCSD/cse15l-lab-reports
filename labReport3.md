@@ -3,10 +3,10 @@ I chose to experiment with four different variations of the "find" command:
 1. Piping the output of -type f to wc allows us to count the size and number of files in the folder. The -type f command ensures that we only count files,
 and wc gives us our output. Using -l and -c allows us to see the number of new lines and bytes.
 
--type f (or -type d for directories) is a necessary tool that allows us to specify what we are searching for, especially when there are directories and files
-with the same name.
+ -type f (or -type d for directories) is a necessary tool that allows us to specify what we are searching for, especially when there are directories and files
+ with the same name.
 
--wc is a quick and simple to read information on files and directories.
+ -wc is a quick and simple to read information on files and directories.
 
 Input 1:
 ```
@@ -29,7 +29,7 @@ Output 2 (showing 4 files and 164 bytes):
 ```
 
 2. We can use the -size command to find files and directories that are of a certain size. For example, -size +10c would search for files greater than 10 bytes.
-This is a simple command that can be used to quickly check the size of a file, without having to write addition code.
+This is a simple command that can be used to quickly check the size of a file, without having to write additional code.
 
 Input 1:
 
@@ -66,7 +66,7 @@ Output 2 (all files under 1000 bytes):
 3. The -printf format command can give us information about the files, similar to how wc does. The difference is that -printf is much more powerful in many ways.
 This command allows us to print information such as the name of a directory's owner, modification time, full path, file names without their paths, and much more.
 
-For basic information on files during searches, writing up a -printf command line is invaluable, as its formatting is fully customizable.
+ For basic information on files during searches, writing up a -printf command line is invaluable, as its formatting is fully customizable.
 
 Input 1:
 ```
@@ -130,7 +130,7 @@ Owner: cs15lwi23ajt
 4. Our last output was very large! We can use the -prune command to exclude certain directories. This can be coupled with -name or -path to exclude
 directory names or paths, respectively. Using the -o option, we can insert prune into our previous command line and exclude the non-fiction directory.
 
-This is very useful for excluding large or otherwise troublesome directories from searches, and it allows for much cleaner search results.
+ This is very useful for excluding large or otherwise troublesome directories from searches, and it allows for much cleaner search results.
 
 Input 1:
 ```
