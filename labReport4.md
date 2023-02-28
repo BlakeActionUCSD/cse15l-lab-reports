@@ -57,7 +57,8 @@ Run the same junit tests again, this time with the up arrow instead of copy/past
 
 ![Image](lab7ss9.png)
 
-```<up><up><enter>, <up><up><enter>```
+```<up><up><enter>```
+```<up><up><enter>```
 
 Step 9:
 
