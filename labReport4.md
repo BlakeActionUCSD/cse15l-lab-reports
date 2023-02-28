@@ -21,7 +21,7 @@ From here, I was able to choose a directory to open with VSC's file explorer. I 
 Step 5:
 
 Once in the directory, I opened an integrated terminal, typed out "git clone git@github.com:BlakeActionUCSD/lab7.git" and ran the command.
-The ssh key was copied directly from my Github repository.
+The ssh key was copied directly from my Github repository, without requiring a password or other verification.
 
 ![Image](lab7ss4.png)
 
