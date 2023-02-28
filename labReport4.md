@@ -25,9 +25,9 @@ The ssh key was copied directly from my Github repository.
 
 ![Image](lab7ss4.png)
 
-`Keys: <left_click>git clone <left_click><ctrl + C><left_click><ctrl + V><enter>
+```Keys: <left_click>git clone <left_click><ctrl + C><left_click><ctrl + V><enter>
   
-*The* git clone *is typed out, and the* git@github.com:BlakeActionUCSD/lab7.git *link is copied and pasted from the website.*`
+*The* git clone *is typed out, and the* git@github.com:BlakeActionUCSD/lab7.git *link is copied and pasted from the website.*```
   
 Step 6:
 
