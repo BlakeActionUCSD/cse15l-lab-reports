@@ -25,10 +25,27 @@ The ssh key was copied directly from my Github repository.
 
 ![Image](lab7ss4.png)
 
-```<left_click>git clone <left_click><ctrl + C><left_click><ctrl + V><enter>```
-
-```The git clone is typed out, and the git@github.com:BlakeActionUCSD/lab7.git link is copied and pasted from the website.```
+```<right_click><left_click>git clone <left_click><ctrl + C><left_click><ctrl + V><enter>```
 
 Step 6:
 
-asd
+First, I created a new itegrated terminal for the lab7 directory.
+
+![Image](lab7ss5.png)
+
+```<right_click><left_click>```
+
+I copied the Mac junit files from a separate text file and pasted them into the terminal. At the end of junit run command, I added the class "TestListExamples".
+
+![Image](lab7ss6.png)
+
+```<ctrl + C><ctrl + V><enter>, <ctrl + C><ctrl + V> TestListExamples <enter>```
+
+Step 7:
+
+I changed went the ListExamples.java file via the explorer and changed index1 in the final while loop to index2, then saved the file.
+
+![Image](lab7ss7.png)
+
+```<left_click><left_click><backspace> 2 <ctrl + S>```
+
