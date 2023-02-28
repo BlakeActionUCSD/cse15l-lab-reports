@@ -46,6 +46,30 @@ Step 7:
 I changed went the ListExamples.java file via the explorer and changed index1 in the final while loop to index2, then saved the file.
 
 ![Image](lab7ss7.png)
+![Image](lab7ss8.png)
 
 ```<left_click><left_click><backspace> 2 <ctrl + S>```
 
+Step 8:
+
+Run the same junit tests again, this time with the up arrow instead of copy/paste.
+
+![Image](lab7ss9.png)
+
+```<up><up><enter>, <up><up><enter>```
+
+Step 9:
+
+I used three command lines to upload the new ListExamples.java file to my repository. git add to select ListExamples.java, git commit -m "" to
+commit the file and add a short message, and git push to push the update to the server.
+
+![Image](lab7ss10.png)
+
+```git add ListExamples.java <enter>```
+```git commit -m "lab7" <enter>```
+```git push```
+
+Finally, I went to my repository to verify that the files were updated correctly.
+
+![Image](lab7ss11.png)
+![Image](lab7ss12.png)
