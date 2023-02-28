@@ -39,7 +39,8 @@ I copied the Mac junit files from a separate text file and pasted them into the 
 
 ![Image](lab7ss6.png)
 
-```<ctrl + C><ctrl + V><enter>, <ctrl + C><ctrl + V> TestListExamples <enter>```
+```<ctrl + C><ctrl + V><enter>```
+```<ctrl + C><ctrl + V> TestListExamples <enter>```
 
 Step 7:
 
